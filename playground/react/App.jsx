@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { Loading } from '@sreworks-starter/components'
+import { Loading } from '@lerna-monorepo-template/components'
 import Dummy from './components/Dummy?qs-should-not-break-plugin-react'
 
-import '@sreworks-starter/components/es/Loading/index.css'
+import '@lerna-monorepo-template/components/es/Loading/index.css'
 
 function App() {
   const [count, setCount] = useState(0)

@@ -2446,11 +2446,11 @@ __metadata:
     "@babel/core": 7.18.13
     "@babel/preset-env": 7.18.10
     "@babel/preset-react": 7.18.6
-    "@sreworks-starter/components": ^0.0.0-alpha.0
+    "@lerna-monorepo-template/components": ^0.0.0-alpha.0
   languageName: unknown
   linkType: soft
 
-"@lerna-monorepo-template/components@workspace:packages/components":
+"@lerna-monorepo-template/components@^0.0.0-alpha.0, @lerna-monorepo-template/components@workspace:packages/components":
   version: 0.0.0-use.local
   resolution: "@lerna-monorepo-template/components@workspace:packages/components"
   dependencies:
@@ -2458,7 +2458,7 @@ __metadata:
     "@babel/core": 7.18.13
     "@babel/preset-env": 7.18.10
     "@babel/preset-react": 7.18.6
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.0
+    "@lerna-monorepo-template/shared-utils": ^0.0.0-alpha.0
     "@svgr/webpack": 6.3.1
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 12.1.5
@@ -2543,7 +2543,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@lerna-monorepo-template/playground-react@workspace:playground/react"
   dependencies:
-    "@sreworks-starter/components": ^0.0.0-alpha.0
+    "@lerna-monorepo-template/components": ^0.0.0-alpha.0
     "@vitejs/plugin-react": 2.0.1
     react: 17.0.2
     react-dom: 17.0.2
@@ -2551,7 +2551,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@lerna-monorepo-template/shared-utils@workspace:packages/shared-utils":
+"@lerna-monorepo-template/shared-utils@^0.0.0-alpha.0, @lerna-monorepo-template/shared-utils@workspace:packages/shared-utils":
   version: 0.0.0-use.local
   resolution: "@lerna-monorepo-template/shared-utils@workspace:packages/shared-utils"
   dependencies:
@@ -3893,26 +3893,6 @@ __metadata:
   dependencies:
     "@sinonjs/commons": ^1.7.0
   checksum: 7d3aef54e17c1073101cb64d953157c19d62a40e261a30923fa1ee337b049c5f29cc47b1f0c477880f42b5659848ba9ab897607ac8ea4acd5c30ddcfac57fca6
-  languageName: node
-  linkType: hard
-
-"@sreworks-starter/components@npm:^0.0.0-alpha.0":
-  version: 0.0.0-alpha.13
-  resolution: "@sreworks-starter/components@npm:0.0.0-alpha.13"
-  dependencies:
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.13
-    classnames: 2.3.1
-    prop-types: 15.8.1
-    react: ~17.0.2
-    react-dom: ~17.0.2
-  checksum: 47f635fce39946b6213f7ea7126af7b992ca2c531c6168a18061343f3c266a66b0c67f9dc53a4ec39bd5b238f5c8ebc27a1c430ddbd4357b0d70025ebea8f3ad
-  languageName: node
-  linkType: hard
-
-"@sreworks-starter/shared-utils@npm:^0.0.0-alpha.0, @sreworks-starter/shared-utils@npm:^0.0.0-alpha.13":
-  version: 0.0.0-alpha.13
-  resolution: "@sreworks-starter/shared-utils@npm:0.0.0-alpha.13"
-  checksum: 6721277039ccd77910e8b6436dbfc0ef1376e2335c1ab33154bbf82c8020663de92819f25f93e0e3a84feab9bfef9127b3e8fd3f3d27b04b7ba3829d070c4dd4
   languageName: node
   linkType: hard
 
