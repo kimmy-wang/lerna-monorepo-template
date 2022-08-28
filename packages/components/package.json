@@ -9,10 +9,9 @@
   "module": "es/index.js",
   "style": "lib/index.css",
   "scripts": {
-    "build": "npm-run-all -p build:cjs build:es build:umd",
+    "build": "npm-run-all -p build:cjs build:es",
     "build:cjs": "rimraf lib && webpack -c config/webpack.config.cjs.js",
     "build:es": "rimraf es && webpack -c config/webpack.config.es.js",
-    "build:umd": "rimraf dist && webpack -c config/webpack.config.js",
     "test": "jest"
   },
   "browserslist": [
